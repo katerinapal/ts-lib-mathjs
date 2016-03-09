@@ -7,7 +7,7 @@
  * mathematical functions, and a flexible expression parser.
  *
  * @version 3.0.0
- * @date    2016-03-04
+ * @date    2016-03-09
  *
  * @license
  * Copyright (C) 2013-2016 Jos de Jong <wjosdejong@gmail.com>
@@ -20625,6 +20625,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	      base: BASE_UNITS.BIT,
 	      prefixes: PREFIXES.BINARY_LONG,
 	      value: 8,
+	      offset: 0
+	    },
+	    // Percent
+	    percent: {
+	      name: 'percent',
+	      base: BASE_UNITS.NONE,
+	      prefixes: PREFIXES.NONE,
+	      value: 1e-2,
+	      offset: 0
+	    },
+	    ppm: {
+	      name: 'ppm',
+	      base: BASE_UNITS.NONE,
+	      prefixes: PREFIXES.NONE,
+	      value: 1e-6,
 	      offset: 0
 	    }
 	  };
