@@ -7,7 +7,7 @@
  * mathematical functions, and a flexible expression parser.
  *
  * @version 3.0.0
- * @date    2016-03-09
+ * @date    2016-03-22
  *
  * @license
  * Copyright (C) 2013-2016 Jos de Jong <wjosdejong@gmail.com>
@@ -20431,6 +20431,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	      value: 6894.75729276459,
 	      offset: 0
 	    },
+	    psia: {
+	      name: 'psia',
+	      base: BASE_UNITS.PRESSURE,
+	      prefixes: PREFIXES.NONE,
+	      value: 6894.75728001037,
+	      offset: 0
+	    },
 	    atm: {
 	      name: 'atm',
 	      base: BASE_UNITS.PRESSURE,
@@ -20450,6 +20457,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	      base: BASE_UNITS.PRESSURE,
 	      prefixes: PREFIXES.NONE,
 	      value: 133.322,
+	      offset: 0
+	    },
+	    inHg: {
+	      name: 'inHg',
+	      base: BASE_UNITS.PRESSURE,
+	      prefixes: PREFIXES.NONE,
+	      value: 3386.39,
+	      offset: 0
+	    },
+	    cmHg: {
+	      name: 'cmHg',
+	      base: BASE_UNITS.PRESSURE,
+	      prefixes: PREFIXES.NONE,
+	      value: 1333.223653,
 	      offset: 0
 	    },
 	    mmHg: {
