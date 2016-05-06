@@ -7,7 +7,7 @@
  * mathematical functions, and a flexible expression parser.
  *
  * @version 3.0.0
- * @date    2016-03-22
+ * @date    2016-05-06
  *
  * @license
  * Copyright (C) 2013-2016 Jos de Jong <wjosdejong@gmail.com>
@@ -20407,7 +20407,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      value: Complex.I,
 	      offset: 0
 	    },
-	    
+
 	    VA: {
 	      name: 'VA',
 	      base: BASE_UNITS.POWER,
@@ -20492,6 +20492,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	      base: BASE_UNITS.PRESSURE,
 	      prefixes: PREFIXES.NONE,
 	      value: 98.0665,
+	      offset: 0
+	    },
+	    kgcm: {
+	      name: 'kgcm',
+	      base: BASE_UNITS.PRESSURE,
+	      prefixes: PREFIXES.NONE,
+	      value: 98066.5,
 	      offset: 0
 	    },
 
