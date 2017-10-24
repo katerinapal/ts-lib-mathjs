@@ -1,6 +1,6 @@
 {
   "name": "ts-lib-mathjs",
-  "version": "1.0.0",
+  "version": "13.0.0",
   "description": "Forked from mathjs NodeJS library, and added with more units used in TetraScience supported instruments.",
   "repository": {
     "type": "git",
