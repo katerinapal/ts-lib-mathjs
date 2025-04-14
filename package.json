@@ -96,7 +96,7 @@
   
     "gen-test-suite-toTex": "jest --verbose ./generated-tests/FunctionNode_prototype_toTex_Node_js.test.js --coverage=true",
   
-    "gen-test-suite-OperatorNode-toString": "jest --verbose ./generated-tests/Node_prototype_toString_OperatorNode_js.test.js --coverage=true",
+    "gen-test-suite-OperatorNode-toString": "jest --verbose ./generated-tests*/*.test.js --coverage=true",
     "gen-test-suite-ConstantNode-toString": "jest --verbose ./generated-tests/Node_prototype_toString_ConstantNode_js.test.js --coverage=true",
 
     "gen-test-suite": "jest --verbose ./generated-tests/*.test.js --coverage=true"
